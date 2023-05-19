@@ -3,8 +3,18 @@ body {
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
     background-color: #101423;
+    align-items: flex-start; /* Align items to the top */
+    height: 100vh; /* Set body height to full window height */
+}
+
+.titleImg {
+  max-width: 5%;
+  height: auto; /* Removed fixed height to maintain aspect ratio */
+  margin-right: 20px; /* Adjusted margin for better spacing */
+  filter: invert(100%);
 }
 
 .title {
-    color: #ffffff;
+  color: #ffffff;
 }
+  
