@@ -1,4 +1,10 @@
 body {
     display: flex;
     justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #101423;
+}
+
+.title {
+    color: #ffffff;
 }
